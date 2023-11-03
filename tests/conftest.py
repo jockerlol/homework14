@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 
 from main import app
 from src.db.models import Base
-from src.db.db_connect import get_db
+from src.db.db_connection import get_db
 
 SQLALCHEMY_DATABASE_URL = "sqlite:///./testDB.db"
 
